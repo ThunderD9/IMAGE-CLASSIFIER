@@ -1,3 +1,6 @@
+*Unzip the folder gtsrb small, given here is small dataset if you want the large dataset you can download it here:https://cdn.cs50.net/ai/2020/x/projects/5/traffic.zip 
+* To run the program : python .\traffic.py .\gtsrb\
+
 First I tried using 128 filters and 2x2 kernel for the convolution layer
 [tf.keras.layers.Conv2D(
             128, (2,2), activation="relu", input_shape=(IMG_WIDTH, IMG_HEIGHT, 3)
